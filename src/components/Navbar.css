@@ -1,0 +1,39 @@
+/* Navbar.css */
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #004466;
+  padding: 12px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.nav-link a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link a:hover {
+  background-color: #006699;
+}
+
+.nav-link button {
+  background-color: #cc0000;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link button:hover {
+  background-color: #a60000;
+}
